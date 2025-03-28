@@ -45,9 +45,9 @@ nav {
     border-radius: 5px;
     padding: 20px;
     text-align: center;
-    background-color: #ffff;
+    /* background-color: #ffff; */
     
-    box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+    /* box-shadow: 4px 4px 6px rgba(0,0,0,0.1); */
     
 }
 /* card -1 */
