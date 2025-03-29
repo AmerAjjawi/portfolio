@@ -110,7 +110,7 @@ ul {
 
 /* img */
 
-img {
+.old-image {
 
     width: 200px;
     object-fit: contain;
@@ -217,4 +217,47 @@ img:hover {
     margin-top: 50px;
 }
 
-/* nav */
+/* second section of the page */
+
+.container-2 {
+    width: 100%; 
+    max-width: 1100px;
+     min-width: 300px;
+    border-radius: 5px; 
+    margin: 150px auto;
+    padding: 70px 60px;
+    background: #f8fafe;
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
+}
+
+.card-4 .goldesal {
+    object-fit: contain;
+    width: 500px;
+}
+
+.card-5 .oceans {
+    object-fit: contain;
+    width: 500px;
+}
+
+.card-6 .ongold {
+    object-fit: contain;
+    width: 500px;
+}
+
+.card-7 .weatherapp {
+    object-fit: contain;
+    width: 500px;
+}
+
+.work .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .work img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
