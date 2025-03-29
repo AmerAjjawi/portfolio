@@ -22,10 +22,14 @@ ul {
     list-style-type: none;
 }
 
+.icons {
+    display: flex;
+
+   justify-content: center;
+}
 
 .fa-brands {
-    width: 400px;
-    color: #fff;
+    margin: 5px;
     color: rgb(102, 177, 161);
 }
 
