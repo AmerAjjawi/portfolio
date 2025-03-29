@@ -26,17 +26,19 @@ ul {
 .fa-brands {
     width: 400px;
     color: #fff;
-    color:rgb(102, 177, 161);
+    color: rgb(102, 177, 161);
 }
 
 
 .container {
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1400px;
+    min-width: 300px;
     border-radius: 5px;
     margin: 150px auto;
     padding: 70px 60px;
     background: #f8fafe;
-    box-shadow: 4px 4px 4px rgb(0,0,0, 0.1);
+    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
 }
 
 .card {
@@ -46,24 +48,24 @@ ul {
     padding: 20px;
     text-align: center;
     /* background-color: #ffff; */
-    
+
     /* box-shadow: 4px 4px 6px rgba(0,0,0,0.1); */
-    
+
 }
 
 
 
 
 /* .card-1  */
- .card-1 {
+.card-1 {
     background-color: #ccc;
     /* max-width: 300px; */
-    
-} 
+
+}
 
 /* card-2 */
 .card-2 {
-    
+
     margin: 0px 70px;
     /* gap: 30px; */
 }
@@ -77,8 +79,8 @@ ul {
 /* card -1 */
 .card-1 h2 {
     text-transform: uppercase;
-    color: rgb(102,177,161);
-   margin-top: 30px;
+    color: rgb(102, 177, 161);
+    margin-top: 30px;
     margin-bottom: 30px;
     font-size: 20px;
 }
@@ -94,7 +96,7 @@ ul {
 
 .card-1 .position {
     margin-bottom: 20px;
-    
+
 }
 
 .card-1 .hobbies {
@@ -105,7 +107,7 @@ ul {
 /* img */
 
 img {
-    
+
     width: 200px;
     object-fit: contain;
     border-radius: 50%;
@@ -114,6 +116,7 @@ img {
 img:hover {
     box-shadow: 0px 6px 6px rgb(102, 177, 161);
 }
+
 /* about-me */
 
 .about-me {
@@ -122,11 +125,11 @@ img:hover {
 }
 
 
-/* card -2 */ 
+/* card -2 */
 
 .card-2 h2 {
     text-transform: uppercase;
-    color: rgb(102,177,161);
+    color: rgb(102, 177, 161);
     font-size: 20px;
 }
 
@@ -139,7 +142,7 @@ img:hover {
     border-top: 1px solid rgb(102,177,161);
     /* margin: 1em 0; */
 
-/* } */ 
+/* } */
 .card-2 .role {
     font-weight: 600;
     margin-bottom: 20px;
@@ -148,7 +151,7 @@ img:hover {
 }
 
 
-.card-2 .position-blink{
+.card-2 .position-blink {
     font-weight: 500;
     margin-bottom: 20px;
 
@@ -157,12 +160,12 @@ img:hover {
 .card-2 .role-blink {
     font-weight: 300;
     margin-bottom: 20px;
-    
+
     /* border-right: 1px solid grey; */
 }
 
-.card-2  .diploma {
-    
+.card-2 .diploma {
+
     font-weight: 600;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -182,24 +185,24 @@ img:hover {
 
 .card-3 h2 {
     text-transform: uppercase;
-    color: rgb(102,177,161);
+    color: rgb(102, 177, 161);
     /* margin-bottom: 20px; */
     font-size: 20px;
 
 }
 
 .card-3 h3 {
-       
-        font-weight: 600;
-        margin-top: 20px;
-        font-size: 18px;
- 
-    
+
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 18px;
+
+
 }
 
 .card-3 .list {
     margin-top: 20px;
-   
+
 }
 
 .card-3 .list2 {
@@ -211,4 +214,3 @@ img:hover {
 }
 
 /* nav */
-
