@@ -230,34 +230,37 @@ img:hover {
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
 }
 
-.card-4 .goldesal {
+/* .card-4  img {
     object-fit: contain;
     width: 500px;
+    height: 300px;
 }
 
-.card-5 .oceans {
-    object-fit: contain;
-    width: 500px;
-}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
 
-.card-6 .ongold {
-    object-fit: contain;
-    width: 500px;
-}
 
-.card-7 .weatherapp {
-    object-fit: contain;
-    width: 500px;
-}
-
-.work .column {
-    flex: 25%;
+.work  {
+    /* flex: 25%;
     max-width: 25%;
-    padding: 0 4px;
+    padding: 0 4px; */
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
   
-  .work img {
-    margin-top: 8px;
-    vertical-align: middle;
-    width: 100%;
-  }
+.work img {
+  max-width: 400px;
+   height: 300px;
+    object-fit: contain;
+}
+
+.work img:hover {
+    
+}
