@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins';
     line-height: 1.6;
-    background-color: #f4f4f4;
+    background-color: #f3efef;
 }
 
 /* nav {
@@ -270,15 +270,46 @@ img:hover {
 
     display: flex;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   
 .work img {
   max-width: 400px;
    height: 300px;
-    object-fit: contain;
+  object-fit: contain;
+}
+
+.weatherapp {
+    opacity:1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+}
+
+.weather-text {
+    transition: .5s ease;
+    opacity:0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .work img:hover {
-    
+    opacity: 0.3;
+}
+.work .weather-text:hover {
+    opacity: 1;
+} 
+
+.text {
+    background-color: #ccc;
+    color:#f8fafe;
+    font-size: 16px;
+    padding: 16px 32px;
 }
