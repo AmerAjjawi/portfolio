@@ -157,6 +157,7 @@ img:hover {
 .about-me {
     display: flex;
     gap: 5px;
+    box-shadow: 4px 4px 4px rgb(0,0,0,0.1);
 }
 
 
@@ -247,8 +248,8 @@ img:hover {
     max-width: 1100px;
      min-width: 300px;
     border-radius: 5px; 
-    margin: 150px auto;
-    margin-bottom: 70px;
+    /* margin: 150px auto; */
+    /* margin-bottom: 70px; */
     padding: 70px 60px;
     background: #f8fafe;
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
@@ -336,8 +337,10 @@ img:hover {
     width: 100%; 
      max-width: 1100px;
      min-width: 300px;
-     margin: 150px auto;
-     margin-bottom: 70px;
+     position: relative;
+     left: 50px;
+     /* margin: 150px auto; */
+     /* margin-bottom: 70px; */
      padding: 70px 60px;
      background: #f8fafe;
      box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
