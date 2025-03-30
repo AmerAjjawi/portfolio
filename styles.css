@@ -51,6 +51,19 @@ ul {
     color: rgb(102, 177, 161);
 }
 
+.fa-solid{
+    color: rgb(102, 177, 161);
+}
+
+ .fa-arrow-down {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 50px;
+    border: none;
+    color: rgb(102, 177, 161);
+} 
+
 
 .container {
     width: 100%;
@@ -293,9 +306,9 @@ img:hover {
 /* .weather-text {
     transition: .5s ease;
     opacity:0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    top: 0;
+    left:0;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -313,6 +326,7 @@ img:hover {
     color:#f8fafe;
     font-size: 16px;
     padding: 16px 32px;
+    position: absolute;
 }
  */
 
