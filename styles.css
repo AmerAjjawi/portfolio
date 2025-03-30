@@ -155,16 +155,7 @@ img:hover {
     font-size: 20px;
 }
 
-/* hr {
-    width: 50%;
-    margin: auto;
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid rgb(102,177,161);
-    /* margin: 1em 0; */
 
-/* } */
 .card-2 .role {
     font-weight: 600;
     margin-bottom: 20px;
@@ -250,7 +241,7 @@ img:hover {
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
 }
 
-/* .card-4  img {
+ .card-4  img {
     object-fit: contain;
     width: 500px;
     height: 300px;
@@ -260,25 +251,25 @@ img:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} */
+} 
 
 
 /* images */
 
 .work  {
-    /* flex: 25%;
-    max-width: 25%;
-    padding: 0 4px; */
+ 
+    
+    padding: 0 4px; 
     /* display: flex;
     flex-wrap: wrap; */
 
     display: flex;
-    flex-direction: column;
+ 
   
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+
     gap: 1rem;
   }
   
@@ -299,7 +290,7 @@ img:hover {
 
 }
 
-.weather-text {
+/* .weather-text {
     transition: .5s ease;
     opacity:0;
     position: absolute;
@@ -308,7 +299,7 @@ img:hover {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-}
+} */
 
 .work img:hover {
     opacity: 0.3;
