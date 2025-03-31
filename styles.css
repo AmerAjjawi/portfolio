@@ -8,6 +8,7 @@ body {
     font-family: 'Poppins';
     line-height: 1.6;
     background-color: #f3efef;
+    scroll-behavior: smooth;
 }
 
 /* nav {
@@ -36,6 +37,7 @@ ul {
     color: rgb(102, 177, 161);
     text-decoration: none;
 }
+
 .navbar-list {
     list-style: none;
 }
@@ -43,7 +45,7 @@ ul {
 .icons {
     display: flex;
 
-   justify-content: center;
+    justify-content: center;
 }
 
 .fa-brands {
@@ -51,18 +53,19 @@ ul {
     color: rgb(102, 177, 161);
 }
 
-.fa-solid{
+.fa-solid {
     color: rgb(102, 177, 161);
 }
 
- .fa-arrow-down {
+.fa-arrow-down {
     display: flex;
     justify-content: center;
     margin-top: 50px;
     padding: 50px;
     border: none;
     color: rgb(102, 177, 161);
-} 
+    scroll-behavior: smooth;
+}
 
 
 .container {
@@ -74,7 +77,25 @@ ul {
     padding: 70px 60px;
     background: #f8fafe;
     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
+
+
+
+/* .cards  */
+.card-1 {
+    background-color: #ccc;
+    /* max-width: 300px; */
+
+}
+
+
+
+/* card -1 */
 
 .card {
     align-items: center;
@@ -89,29 +110,13 @@ ul {
 }
 
 
-
-
-/* .cards  */
-.card-1 {
-    background-color: #ccc;
-    /* max-width: 300px; */
+.about-me {
+    display: flex;
+    gap: 5px;
 
 }
 
-/* card-2 */
-.card-2 {
 
-    margin: 0px 70px;
-    /* gap: 30px; */
-}
-
-
-.card-3 {
-    margin: 0px 70px;
-}
-
-
-/* card -1 */
 .card-1 h2 {
     text-transform: uppercase;
     color: rgb(102, 177, 161);
@@ -154,15 +159,20 @@ img:hover {
 
 /* about-me */
 
-.about-me {
-    display: flex;
-    gap: 5px;
-    box-shadow: 4px 4px 4px rgb(0,0,0,0.1);
+
+
+/* card-2 */
+.card-2 {
+
+    margin: 0px 70px;
+    /* gap: 30px; */
 }
 
 
-/* card -2 */
-
+.card-3 {
+    margin: 0px 70px;
+}
+'
 .card-2 h2 {
     text-transform: uppercase;
     color: rgb(102, 177, 161);
@@ -244,58 +254,49 @@ img:hover {
 /* second section of the page */
 
 .container-2 {
-    width: 100%; 
+    width: 100%;
     max-width: 1100px;
-     min-width: 300px;
-    border-radius: 5px; 
+    min-width: 300px;
+    border-radius: 5px;
     /* margin: 150px auto; */
     /* margin-bottom: 70px; */
     padding: 70px 60px;
     background: #f8fafe;
-    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
+
 }
 
- .card-4  img {
+.card-4 img {
     object-fit: contain;
     width: 500px;
     height: 300px;
 }
 
+
+
 .work {
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-} 
-
-
-/* images */
-
-.work  {
- 
-    
-    padding: 0 4px; 
-    /* display: flex;
-    flex-wrap: wrap; */
-
     display: flex;
- 
-  
+
+
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
 
     gap: 1rem;
-  }
-  
+}
 
+/* images */
 .work img {
-  max-width: 400px;
-   height: 300px;
-  object-fit: contain;
+    max-width: 400px;
+    height: 300px;
+    object-fit: contain;
 }
 
 .weatherapp {
-    opacity:1;
+    opacity: 1;
     display: block;
     width: 100%;
     height: auto;
@@ -318,9 +319,10 @@ img:hover {
 .work img:hover {
     opacity: 0.3;
 }
+
 .work .weather-text:hover {
     opacity: 1;
-} 
+}
 
 /* .text {
     background-color: #ccc;
@@ -331,53 +333,15 @@ img:hover {
 }
  */
 
-/* container 3 */
-
-.container-3 {
-    width: 100%; 
-     max-width: 1100px;
-     min-width: 300px;
-     position: relative;
-     left: 50px;
-     /* margin: 150px auto; */
-     /* margin-bottom: 70px; */
-     padding: 70px 60px;
-     background: #f8fafe;
-     box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
-}
-
- .connect-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
-
-.connect-card h1 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    font-weight: 600;
-}
-
-.connect-card p {
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-.connect-card input[type="text"] {
+.social-icons {
     width: 100%;
-    padding: 20px 15px;
-    font-size: large;
-    border: none;
-    background: #f1f1f1;
-    margin-bottom: 20px;
-}
+    max-width: 1100px;
+    min-width: 300px;
+    margin-top: 50px;
+    border-radius: 5px;
+    /* margin: 150px auto; */
+    /* margin-bottom: 70px; */
+    padding: 70px 60px;
+    background: #f8fafe;
 
-.connect-card button {
-    display: block;
-    width: 100%;
-    padding: 20px 15px;
-    font-size: larger;
-    background-color: #efad45;
-    margin-bottom: 20px;
 }
