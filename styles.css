@@ -7,7 +7,7 @@
 body {
     font-family: 'Poppins';
     line-height: 1.6;
-    background-color: #f3efef;
+    background-color: #f0f0f0;
     scroll-behavior: smooth;
 }
 
@@ -15,12 +15,22 @@ body {
     list-style-type: none;
 } */
 
+
+
 a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+}
+
+
+.nav-bar {
+    border-radius: 50px;
+    padding: 5px 10px;
+    margin-bottom: 25px;
+    background: #438879;
 }
 
 .top-nav {
@@ -41,7 +51,8 @@ ul {
 .navbar-list {
     list-style: none;
 }
-
+ 
+/* favicons */
 .icons {
     display: flex;
 
@@ -57,15 +68,16 @@ ul {
     color: rgb(102, 177, 161);
 }
 
-.fa-arrow-down {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    padding: 50px;
+
+/* horizontal line */
+.horizontal-line {
     border: none;
-    color: rgb(102, 177, 161);
-    scroll-behavior: smooth;
+    /* height: 1px; */
+    color: #333;
+    background-color: #66b1a1;
+    height:4px;
 }
+
 
 
 .container {
@@ -76,19 +88,27 @@ ul {
     margin: 150px auto;
     padding: 70px 60px;
     background: #f8fafe;
-    box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
+    /* box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1); */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 
-
-
+/* parent div */
+.parent-div {
+    flex: 1 1 auto;
+}
 
 /* .cards  */
 .card-1 {
     background-color: #ccc;
+    width: 300px;
+    flex: 0 0 400px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     /* max-width: 300px; */
 
 }
@@ -119,7 +139,7 @@ ul {
 
 .card-1 h2 {
     text-transform: uppercase;
-    color: rgb(102, 177, 161);
+    
     margin-top: 30px;
     margin-bottom: 30px;
     font-size: 20px;
@@ -172,10 +192,10 @@ img:hover {
 .card-3 {
     margin: 0px 70px;
 }
-'
+
 .card-2 h2 {
     text-transform: uppercase;
-    color: rgb(102, 177, 161);
+    margin-bottom: 5px;
     font-size: 20px;
 }
 
@@ -222,7 +242,7 @@ img:hover {
 
 .card-3 h2 {
     text-transform: uppercase;
-    color: rgb(102, 177, 161);
+    margin-bottom: 5px;
     /* margin-bottom: 20px; */
     font-size: 20px;
 
@@ -236,6 +256,18 @@ img:hover {
 
 
 }
+
+
+.education-h2 {
+    text-transform: uppercase;
+    color:#438879;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .card-3 .list {
     margin-top: 20px;
@@ -280,18 +312,19 @@ img:hover {
     justify-content: center;
     display: flex;
 
-
+    margin-top: 20px;
     /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
 
-    gap: 1rem;
+    gap: 2rem;
+    padding: 20px;
 }
 
 /* images */
 .work img {
     max-width: 400px;
-    height: 300px;
+    height: auto;
     object-fit: contain;
 }
 
@@ -337,7 +370,7 @@ img:hover {
     width: 100%;
     max-width: 1100px;
     min-width: 300px;
-    margin-top: 50px;
+    margin-top: 20px;
     border-radius: 5px;
     /* margin: 150px auto; */
     /* margin-bottom: 70px; */
