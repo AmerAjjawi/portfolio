@@ -66,6 +66,7 @@ ul {
 
 .fa-solid {
     color: rgb(102, 177, 161);
+    padding-left: 5px;
 }
 
 
@@ -81,11 +82,11 @@ ul {
 
 
 .container {
-    width: 100%;
-    max-width: 1400px;
-    min-width: 300px;
+    max-width: 100%;
+    /* max-width: 1400px;
+    min-width: 300px; */
     border-radius: 5px;
-    margin: 150px auto;
+    /* margin: 150px auto; */
     padding: 70px 60px;
     background: #f8fafe;
     /* box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1); */
@@ -263,9 +264,9 @@ img:hover {
     color:#438879;
     font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 
@@ -365,16 +366,3 @@ img:hover {
     position: absolute;
 }
  */
-
-.social-icons {
-    width: 100%;
-    max-width: 1100px;
-    min-width: 300px;
-    margin-top: 20px;
-    border-radius: 5px;
-    /* margin: 150px auto; */
-    /* margin-bottom: 70px; */
-    padding: 70px 60px;
-    background: #f8fafe;
-
-}
