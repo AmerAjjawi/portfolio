@@ -246,8 +246,7 @@ img:hover {
     text-transform: uppercase;
     color:#438879;
     font-size: 20px;
-    margin-top: 20px;
-    /* margin-bottom: 20px; */
+
     display: flex;
     justify-content: flex-start;
 }
@@ -271,17 +270,15 @@ img:hover {
 
 .container-2 {
     width: 100%;
-    /* max-width: 1100px; */
+    
     min-width: 300px;
     border-radius: 5px;
-    /* margin: 150px auto; */
-    /* margin-bottom: 70px; */
-    /* padding: 70px 60px; */
+  
     background: #f8fafe;
 
 }
 
-
+/* work cards */
 .work-card {
     position: relative;
     text-align: center;
@@ -294,11 +291,11 @@ img:hover {
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0,0,0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
     color: #f1f1f1;
     transition: .5s ease;
     opacity: 0;
-    /* color: white; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -318,12 +315,12 @@ img:hover {
     display: flex;
 
     margin-top: 20px;
-    /* justify-content: space-between; */
+   
     justify-content: flex-start;
    
 
     gap: 2rem;
-    padding: 20px 0px;
+    
 }
 
 
@@ -334,6 +331,16 @@ img:hover {
     height: 400px;
     
 }
+
+
+/* skills */
+
+.skills {
+    display: flex;
+    gap: calc(50% - 1rem);
+}
+
+
 
 /* images */
 .work img {
@@ -352,16 +359,7 @@ img:hover {
 
 }
 
-/* .weather-text {
-    transition: .5s ease;
-    opacity:0;
-    position: relative;
-    top: 0;
-    left:0;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-} */
+
 
 .work img:hover {
     opacity: 0.3;
@@ -371,11 +369,3 @@ img:hover {
     opacity: 1;
 }
 
-/* .text {
-    background-color: #ccc;
-    color:#f8fafe;
-    font-size: 16px;
-    padding: 16px 32px;
-    position: absolute;
-}
- */
