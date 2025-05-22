@@ -262,7 +262,7 @@ ul.languages {
 
 .education-h2 {
     text-transform: uppercase;
-    color:#ff4d5a;
+    color:#f8fafe;
     font-size: 20px;
 
     display: flex;
@@ -394,7 +394,7 @@ footer {
 
  a {
     text-decoration: none;
-    color: #ff4d5a;
+    color: #f8fafe;
 }
 
 .resume {
@@ -422,6 +422,7 @@ footer {
     background-color: #ff4d5a;
     border-radius: 4px;
     padding: 4px;
+    transform: rotate(90deg);
 }
 
 
