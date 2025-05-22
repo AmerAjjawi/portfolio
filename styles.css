@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
-#canvas1 {
+/* #canvas1 {
 
     background: #1a1a1a;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+    width: 100%;
+    height: 200px;
+    position: relative;
     top: 0;
     left: 0;
     z-index: -1;
     pointer-events: none;
-}
+} */
 
 body {
     font-family: 'Poppins';
@@ -38,13 +38,13 @@ ul {
 .nav-bar {
     border-radius: 50px;
     padding: 5px 10px;
-    margin-bottom: 25px;
+    margin: 25px;
     background: #ff4d5a;
     transition: transform 0.3s ease;
 }
 
 .nav-bar:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 
@@ -190,7 +190,12 @@ ul.languages {
 .old-image:hover {
     transform: scale(1.1);
     box-shadow: rgba(255, 255, 255, 0.6);
-    
+    --translateX: 1.7916666666666659px;
+    --translateY: -19.836400817995912px;
+    --rotateX: -2.9754601226993866deg;
+    --rotateY: -0.2687499999999998deg;
+    transform: translateX(var(--translateX))translateY(var(--translateY))rotateX(var(--rotateX))rotateY(var(--rotateY));
+
 }
 
 
@@ -328,7 +333,7 @@ ul.languages {
 
 .work-card:hover .card-text {
     opacity: 1;
-    
+
 }
 
 
@@ -344,7 +349,7 @@ ul.languages {
 
 .work-card:hover {
     transform: scale(1.1);
-   
+
 }
 
 .work-card {
@@ -352,7 +357,7 @@ ul.languages {
     border-radius: 5px;
     overflow: hidden;
     height: 400px;
-    
+
 
 }
 
@@ -402,6 +407,7 @@ ul.languages {
 footer {
     display: flex;
     justify-content: center;
+    
 }
 
 a {
@@ -415,47 +421,25 @@ a {
     align-items: center;
     justify-content: center;
     margin: 2.4rem;
-    padding: 0 20px;
+   
 
     font-size: 1.4rem;
-    font-weight: 500;
-    border: 2px solid #ff4d5a;
+   
+    border: none;
     color: #f8fafe;
     border-radius: 2rem;
     font-size: 1rem;
-    box-shadow: 0 0 0 0 rgba(88, 120, 243, 0.4);
+    
 
 }
 
 
-.resume:hover {
-    -moz-animation: pulse 2s infinite;
-    -webkit-animation: pulse 2s infinite;
-    animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgb(240, 87, 150);
-    }
-
-    70% {
-        box-shadow: 0 0 0 10px rgba(243, 88, 114, 0);
-    }
-
-    100% {
-        box-shadow: 0 0 0 50px rgba(88, 120, 243, 0);
-    }
-}
 
 .heading__arrow {
-    margin: 2rem;
+    
     fill: #ff4d5a;
     border-radius: 4px;
     padding: 4px;
     transform: rotate(90deg);
 }
 
-footer {
-   margin: 2.4rem; 
-}
