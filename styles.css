@@ -92,6 +92,12 @@ ul {
     align-items: center;
 }
 
+/* ul for skills */
+ul.languages {
+    column-count: 2;
+    column-gap: 50px;
+}
+
 
 /* parent div */
 .parent-div {
@@ -334,10 +340,12 @@ img:hover {
 
 .skills {
     display: flex;
-    gap: calc(50% - 1rem);
+    gap: 1rem
 }
 
-
+.skills > div {
+    flex: 1 1 auto;
+}
 
 /* images */
 .work img {
