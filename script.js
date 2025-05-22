@@ -38,9 +38,11 @@ Particle.prototype.draw = function () {
 Particle.prototype.update = function () {
     if (this.x + this.size > canvas.width || this.x - this.size < 0) {
         this.directionX = -this.directionX;
+        this.vx = -this.vx;
     }
     if (this.y + this.size > canvas.height || this.y - this.size < 0) {
         this.directionY = -this.directionY;
+         this.vy = -this.vy;
 
     }
     this.x += this.directionX;
@@ -97,6 +99,19 @@ function animate() {
     }
     connect();
 }
+
+
+
+let mouse = {
+    x: canvas.width /2,
+    y: canvas.height/2
+};
+
+canvas.addEventListener("mousemove", (event) => {
+    mouse.x = event.offsetX;
+    mouse.y = event.offsetY;
+})
+
 
 window.addEventListener('resize', function () {
     canvas.width = window.innerWidth;
