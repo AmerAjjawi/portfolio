@@ -32,7 +32,7 @@ ul {
 }
 
 p {
-  color: var(--green);
+  color: var(--blue);
 }
 
 @media (max-width: 768px) {
@@ -52,7 +52,7 @@ p {
   border-radius: 50px;
   padding: 5px 10px;
   margin: 25px;
-  background: var(--green);
+  background: var(--blue);
   transition: transform 0.3s ease;
   display: inline-block;
 }
@@ -61,9 +61,6 @@ p {
   transform: scale(1.2);
 }
 
-.top-nav a {
-  color: #ff4d5a;
-}
 
 .navbar-list {
   list-style: none;
@@ -89,7 +86,7 @@ p {
 .horizontal-line {
   border: none;
   height: 4px;
-  background-color: var(--green);
+  background-color: var(--blue);
 }
 
 /* Containers */
@@ -153,7 +150,7 @@ ul.languages {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 20px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .card-1 .role {
@@ -187,7 +184,7 @@ ul.languages {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .card-2 .role {
@@ -213,7 +210,7 @@ ul.languages {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 20px;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .card-3 h3 {
@@ -224,7 +221,7 @@ ul.languages {
 
 .education-h2 {
   text-transform: uppercase;
-  color: var(--green);
+  color: var(--blue);
   font-size: 20px;
   display: flex;
   justify-content: flex-start;
@@ -301,7 +298,7 @@ ul.languages {
 .skills {
   display: flex;
   gap: 1rem;
-  color: var(--green);
+  color: var(--blue);
 }
 
 .skills>div {
@@ -352,7 +349,7 @@ footer {
 }
 
 .heading__arrow {
-  fill: var(--green);
+  fill: var(--blue);
   border-radius: 4px;
   padding: 4px;
   transform: rotate(90deg);
