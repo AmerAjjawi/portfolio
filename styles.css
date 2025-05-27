@@ -47,14 +47,26 @@ p {
   }
 }
 
+.outer-div {
+  display: flex;
+  place-content: center;
+  margin-bottom: 2rem;
+}
+
+
+.inner-div {
+  margin-left: 1rem;
+}
+
 /* Navigation */
 .nav-bar {
   border-radius: 50px;
   padding: 5px 10px;
   margin: 25px;
-  background: var(--blue);
+  background: var(--green);
   transition: transform 0.3s ease;
   display: inline-block;
+  ;
 }
 
 .nav-bar:hover {
@@ -86,7 +98,7 @@ p {
 .horizontal-line {
   border: none;
   height: 4px;
-  background-color: var(--blue);
+  background-color: var(--green);
 }
 
 /* Containers */
@@ -117,13 +129,15 @@ p {
 /* Skills list */
 ul.languages {
   /* You can enable multi-column layout if needed */
-  /* column-count: 2; */
-  /* column-gap: 50px; */
+   column-count: 2; 
+   column-gap: 50px; 
 }
+
 
 /* Flex parent */
 .parent-div {
   flex: 1 1 auto;
+  
 }
 
 /* Cards */
@@ -135,9 +149,10 @@ ul.languages {
   margin-bottom: 2.4rem;
 }
 
-/* CARD-1 - UNCHANGED as requested */
+/* /* CARD-1  */
 .card-1 {
-  flex: 0 0 400px;
+  /* flex: 0 0 400px; */
+  flex: 1;
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -170,13 +185,15 @@ ul.languages {
   object-fit: contain;
   border-radius: 50%;
   transition: transform 0.3s ease;
+   box-shadow: 4px 4px 4px 4px rgba(52, 211, 153, 0.6); 
+  border-color: var(--green);
 }
 
 
 
 .old-image:hover {
   transform: scale(1.1) translateX(1.79px) translateY(-19.8px) rotateX(-2.97deg) rotateY(-0.27deg);
-  box-shadow: rgba(52, 211, 153, 0.6);
+  
 }
 
 /* Card-2 */
@@ -344,7 +361,7 @@ footer {
   margin: 2.4rem;
   font-size: 1rem;
   border: none;
-  color: #f8fafe;
+  color: var(--blue);
   border-radius: 2rem;
 }
 
