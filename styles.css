@@ -3,6 +3,7 @@
 :root {
 --green: rgba(52, 211, 153);
 --white: rgba(229,231,235);
+--blue: rgba(17, 24, 39);
 }
 
 
@@ -15,7 +16,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: var(--green);
+  background-color: var(--blue);
   scroll-behavior: smooth;
 }
 
@@ -30,7 +31,9 @@ ul {
   list-style-type: none;
 }
 
-
+p {
+  color: var(--green);
+}
 
 @media (max-width: 768px) {
   #canvas1 {
@@ -93,7 +96,7 @@ ul {
 .container {
   max-width: 1200px;
   margin: 2rem auto;
-  background-color: rgba(17, 24, 39);
+  background-color: var(--white);
   border-radius: 8px;
   padding: 70px 60px;
   color: #f8fafe;
@@ -150,6 +153,7 @@ ul.languages {
   margin-top: 20px;
   margin-bottom: 0;
   font-size: 20px;
+  color: var(--green);
 }
 
 .card-1 .role {
@@ -183,6 +187,7 @@ ul.languages {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 20px;
+  color: var(--green);
 }
 
 .card-2 .role {
@@ -208,6 +213,7 @@ ul.languages {
   text-transform: uppercase;
   margin-bottom: 5px;
   font-size: 20px;
+  color: var(--green);
 }
 
 .card-3 h3 {
@@ -218,7 +224,7 @@ ul.languages {
 
 .education-h2 {
   text-transform: uppercase;
-  color: #f8fafe;
+  color: var(--green);
   font-size: 20px;
   display: flex;
   justify-content: flex-start;
@@ -295,6 +301,7 @@ ul.languages {
 .skills {
   display: flex;
   gap: 1rem;
+  color: var(--green);
 }
 
 .skills>div {
