@@ -1,4 +1,11 @@
 /* Reset and base */
+
+:root {
+--green: rgba(52, 211, 153);
+--white: rgba(229,231,235);
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +15,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  background-color: #1a1a1a;
+  background-color: var(--green);
   scroll-behavior: smooth;
 }
 
@@ -17,21 +24,13 @@ a {
   color: inherit;
 }
 
+
+
 ul {
   list-style-type: none;
 }
 
-/* Canvas */
-#canvas1 {
-  background: #1a1a1a;
-  width: 100vw;
-  height: 100vh;
-  position: fixed; 
-  top: 0;
-  left: 0;
-  z-index: -1;
-  pointer-events: none;
-}
+
 
 @media (max-width: 768px) {
   #canvas1 {
@@ -50,7 +49,7 @@ ul {
   border-radius: 50px;
   padding: 5px 10px;
   margin: 25px;
-  background: #ff4d5a;
+  background: var(--green);
   transition: transform 0.3s ease;
   display: inline-block;
 }
@@ -87,15 +86,15 @@ ul {
 .horizontal-line {
   border: none;
   height: 4px;
-  background-color: #ff4d5a;
+  background-color: var(--green);
 }
 
 /* Containers */
 .container {
   max-width: 1200px;
   margin: 2rem auto;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 5px;
+  background-color: rgba(17, 24, 39);
+  border-radius: 8px;
   padding: 70px 60px;
   color: #f8fafe;
   display: flex;
@@ -172,13 +171,11 @@ ul.languages {
   transition: transform 0.3s ease;
 }
 
+
+
 .old-image:hover {
-  transform: scale(1.1)
-    translateX(1.79px)
-    translateY(-19.8px)
-    rotateX(-2.97deg)
-    rotateY(-0.27deg);
-  box-shadow: rgba(255, 255, 255, 0.6);
+  transform: scale(1.1) translateX(1.79px) translateY(-19.8px) rotateX(-2.97deg) rotateY(-0.27deg);
+  box-shadow: rgba(52, 211, 153, 0.6);
 }
 
 /* Card-2 */
@@ -234,6 +231,10 @@ ul.languages {
 
 .education-diploma {
   margin-top: 50px;
+}
+
+.diploma {
+  margin: 20px 0 20px 0;
 }
 
 /* Container 2 */
@@ -296,7 +297,7 @@ ul.languages {
   gap: 1rem;
 }
 
-.skills > div {
+.skills>div {
   flex: 1 1 auto;
 }
 
@@ -344,7 +345,7 @@ footer {
 }
 
 .heading__arrow {
-  fill: #ff4d5a;
+  fill: var(--green);
   border-radius: 4px;
   padding: 4px;
   transform: rotate(90deg);
@@ -357,11 +358,13 @@ footer {
     margin: 15px;
     padding: 5px 8px;
   }
+
   /* Do NOT change .card-1 */
   .work-card {
     flex: 1 1 100%;
     height: 300px;
   }
+
   .container {
     padding: 50px 30px;
   }
@@ -372,12 +375,15 @@ footer {
     margin: 10px;
     padding: 5px 6px;
   }
+
   .container {
     padding: 30px 15px;
   }
+
   .work-card {
     height: 250px;
   }
+
   .old-image {
     width: 150px;
   }
